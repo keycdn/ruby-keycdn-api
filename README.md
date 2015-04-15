@@ -90,7 +90,7 @@ urls = {
         'urls[1]' => 'demo-1.kxcdn.com/lorem.jpg'
 };
 
-keycdn.del("zones/purgeurl/#{@zone_id}.json", urls)
+keycdn.del("zones/purgeurl/#{zone_id}.json", urls)
 
 ```
 
