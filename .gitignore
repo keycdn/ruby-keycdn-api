@@ -1,0 +1,9 @@
+# bundler
+.bundle
+vendor
+
+pkg
+*.gem
+*.lock
+.DS_Store
+npm-debug.log
