@@ -6,7 +6,7 @@ module KeyCDN
 
     class Client
 
-        ENDPOINT = 'https://www.keycdn.com/'
+        ENDPOINT = 'https://api.keycdn.com/'
 
         METHOD_MAP = {
           :get    => Net::HTTP::Get,
