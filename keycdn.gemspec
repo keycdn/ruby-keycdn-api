@@ -10,7 +10,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.summary = %Q{A Ruby gem for the KeyCDN API}
   gem.description = %Q{This Ruby gem helps you to interact with the KeyCDN API}
-  gem.email = "support@keycdn.com"
   gem.authors = ["KeyCDN"]
   gem.add_dependency 'json' if RUBY_VERSION.start_with? "1.8"
 end
